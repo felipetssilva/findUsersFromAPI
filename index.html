@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Find Users</title>
+  </head>
+  <body>
+    <h1 class="title">Search for Users</h1>
+
+    <div id="preLoader">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="showAfterLoad" class="hidden">
+      <div class="align">
+        <div class="input-field">
+          <input id="searchUserInput" type="text" class="validate" />
+          <label for="searchUserInput">Search</label>
+        </div>
+
+        <button
+          id="sendButton"
+          class="waves-effect waves-light btn"
+          id="buttonAlign"
+        >
+          Send
+        </button>
+      </div>
+      <div id="userAndStatisticsDataDiv">
+        <div id="userData" class="Info">No User data to show</div>
+        <div id="usersStatistics" class="Info">No Statitics to show</div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+#searchUserInput {
+  display: flex;
+  width: 100%;
+  margin-right: 800px;
+}
+#userAndStatisticsDataDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.Info {
+  width: 45%;
+  margin-left: 50px;
+  border: 4px solid lightblue;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.input-field {
+  margin-left: 50px;
+  width: 90%;
+}
+.title {
+  text-align: center;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-items: flex-start;
+}
+.hidden {
+  display: none;
+}
+#preLoader {
+  text-align: center;
+}
